@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45c2fe32-1a6d-4271-8a14-ecf52773cd51" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DeepSeek-Proxy-Jarvis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/dashboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/server_guard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cli/terminal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/auth_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/ds_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/gc_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/metrics_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/router_state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/trash_bin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Crashpad/metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Crashpad/settings.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/CrashpadMetrics-active.pma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Account Web Data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Account Web Data-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Affiliation Database" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Affiliation Database-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/AutofillAiModelCache/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/AutofillAiModelCache/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/AutofillStrikeDatabase/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/AutofillStrikeDatabase/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/BookmarkMergedSurfaceOrdering" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/BrowsingTopicsSiteData" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/BrowsingTopicsSiteData-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/BrowsingTopicsState" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/BudgetDatabase/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/BudgetDatabase/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000008" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000009" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_00000a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_00000b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_00000c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_00000d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_00000e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_00000f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000011" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000012" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/f_000013" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/Cache_Data/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/No_Vary_Search/journal.baj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Cache/No_Vary_Search/snapshot.baf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/ClientCertificates/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/ClientCertificates/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/499e6c3dcbc342a6_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/4b13083082ddc22d_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/50b0821a5e7f4eb6_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/868a029f75eb3d65_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/90288af8604078aa_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/b3bc842a392cb4c8_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/ba678a2fbd8c358c_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/c2ec21a5410cc8ee_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/cd4b611aada610ee_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/d9c6dec8e263e948_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/fcb14288822dfe85_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/js/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/wasm/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Code Cache/wasm/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/DIPS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/DawnGraphiteCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/DawnGraphiteCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/DawnGraphiteCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/DawnGraphiteCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/DawnGraphiteCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/DawnWebGPUCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/DawnWebGPUCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/DawnWebGPUCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/DawnWebGPUCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/DawnWebGPUCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Download Service/EntryDB/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Download Service/EntryDB/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension Rules/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension Rules/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension Rules/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension Rules/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension Rules/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension Scripts/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension Scripts/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension Scripts/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension Scripts/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension Scripts/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension State/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension State/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension State/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension State/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extension State/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/_locales/zh_CN/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/_locales/zh_TW/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/_metadata/verified_contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/Jsq-4d01198b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/Jsq-8833d7eb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/background.js-22906370.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/content-51f2f1f6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/content.js-e4490f5d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/content.js-loader-9a2f598c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/extension_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/footer_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/icon19_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/icon19_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/icon19_pageDisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/index-9000aff5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/install_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/menu_logo copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/menu_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/modulepreload-polyfill-2ad73d06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/options-5397978f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/options.html-0306a3d1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/popup-261c28b8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/popup.html-9251625c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/runtime-dom.esm-bundler-90e72f46.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/stat-e9139785.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/tick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/tool-13238bfa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/util-ff1b650c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/xl-images-67baeda0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/assets/xl-images-998ea1e9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/service-worker-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/ncennffkjdiamlpmcbajkmaiiiddgioo/3.52.14_0/xl-images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/bg/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/ca/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/cs/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/da/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/de/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/el/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/en/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/en_GB/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/es/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/es_419/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/et/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/fi/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/fil/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/fr/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/hi/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/hr/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/hu/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/id/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/it/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/ja/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/ko/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/lt/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/lv/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/nb/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/nl/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/pl/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/pt_BR/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/pt_PT/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/ro/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/ru/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/sk/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/sl/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/sr/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/sv/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/th/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/tr/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/uk/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/vi/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/zh_CN/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_locales/zh_TW/messages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_metadata/computed_hashes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/_metadata/verified_contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/craw_background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/craw_window.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/css/craw_window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/html/craw_window.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/images/flapper.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/images/icon_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/images/icon_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/images/topbar_floating_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/images/topbar_floating_button_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/images/topbar_floating_button_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/images/topbar_floating_button_maximize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/images/topbar_floating_button_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Favicons" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Favicons-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Feature Engagement Tracker/AvailabilityDB/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Feature Engagement Tracker/AvailabilityDB/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Feature Engagement Tracker/EventDB/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Feature Engagement Tracker/EventDB/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GCM Store/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GCM Store/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GCM Store/Encryption/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GCM Store/Encryption/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GCM Store/Encryption/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GCM Store/Encryption/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GCM Store/Encryption/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GCM Store/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GCM Store/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GCM Store/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GPUCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GPUCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GPUCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GPUCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/GPUCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/History" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/History-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Local Storage/leveldb/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Local Storage/leveldb/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Local Storage/leveldb/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Local Storage/leveldb/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Local Storage/leveldb/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Login Data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Login Data For Account" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Login Data For Account-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Login Data-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network Action Predictor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network Action Predictor-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network/Cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network/Cookies-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network/Device Bound Sessions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network/Device Bound Sessions-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network/Network Persistent State" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network/NetworkDataMigrated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network/Reporting and NEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network/Reporting and NEL-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network/TransportSecurity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network/Trust Tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Network/Trust Tokens-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/PersistentOriginTrials/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/PersistentOriginTrials/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Preferences" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/PreferredApps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Safe Browsing Network/NetworkDataMigrated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Safe Browsing Network/Safe Browsing Cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Safe Browsing Network/Safe Browsing Cookies-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Secure Preferences" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Segmentation Platform/SegmentInfoDB/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Segmentation Platform/SegmentInfoDB/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Segmentation Platform/SignalDB/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Segmentation Platform/SignalDB/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Segmentation Platform/SignalStorageConfigDB/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/ServerCertificate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/ServerCertificate-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Service Worker/Database/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Service Worker/Database/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Service Worker/Database/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Service Worker/Database/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Service Worker/Database/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Service Worker/ScriptCache/4cb013792b196a35_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Service Worker/ScriptCache/4cb013792b196a35_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Service Worker/ScriptCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Service Worker/ScriptCache/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Session Storage/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Session Storage/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Session Storage/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Session Storage/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Session Storage/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Shared Dictionary/cache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Shared Dictionary/cache/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Shared Dictionary/db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Shared Dictionary/db-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Shortcuts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Shortcuts-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Site Characteristics Database/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Site Characteristics Database/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Site Characteristics Database/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Site Characteristics Database/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Site Characteristics Database/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Code Cache/js/5dea14b9816ec6d9_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Code Cache/js/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Code Cache/js/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Code Cache/wasm/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Code Cache/wasm/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/DawnGraphiteCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/DawnGraphiteCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/DawnGraphiteCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/DawnGraphiteCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/DawnGraphiteCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/DawnWebGPUCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/DawnWebGPUCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/DawnWebGPUCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/DawnWebGPUCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/DawnWebGPUCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/GPUCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/GPUCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/GPUCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/GPUCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/GPUCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Local Storage/leveldb/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Local Storage/leveldb/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Local Storage/leveldb/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Local Storage/leveldb/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Local Storage/leveldb/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Network/Device Bound Sessions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Network/Device Bound Sessions-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Network/Network Persistent State" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Network/NetworkDataMigrated" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Network/Trust Tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Network/Trust Tokens-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Session Storage/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Session Storage/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Session Storage/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Session Storage/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Session Storage/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Shared Dictionary/cache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Shared Dictionary/cache/index-dir/the-real-index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Shared Dictionary/db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Storage/ext/nmmhkkegccagdldgiimedpiccmgmieda/def/Shared Dictionary/db-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Sync Data/LevelDB/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Sync Data/LevelDB/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Sync Data/LevelDB/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Sync Data/LevelDB/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Sync Data/LevelDB/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Top Sites" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Top Sites-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Icons/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/aghbiahbpaijignceidepookljebhfak/Trusted Icons/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Icons/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/agimnkijcaahngcdmfeangaknmldooml/Trusted Icons/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Trusted Icons/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Icons/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/fmgjjmmmlfnkbppncabfkddbjimcfncm/Trusted Icons/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Icons/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/kefjledonklijopmnomlcbpllchaibag/Trusted Icons/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Icons/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/Trusted Icons/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Icons/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Applications/Manifest Resources/pommaclcbfghclhalboakcipcmmndhcj/Trusted Icons/Icons/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/Web Data-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/WebStorage/QuotaManager" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/WebStorage/QuotaManager-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/chrome_cart_db/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/chrome_cart_db/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/commerce_subscription_db/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/commerce_subscription_db/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/discount_infos_db/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/discount_infos_db/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/discounts_db/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/discounts_db/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/heavy_ad_intervention_opt_out.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/heavy_ad_intervention_opt_out.db-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/optimization_guide_hint_cache_store/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/optimization_guide_hint_cache_store/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/parcel_tracking_db/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/parcel_tracking_db/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/shared_proto_db/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/shared_proto_db/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/shared_proto_db/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/shared_proto_db/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/shared_proto_db/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/shared_proto_db/metadata/000003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/shared_proto_db/metadata/CURRENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/shared_proto_db/metadata/LOCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/shared_proto_db/metadata/LOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/shared_proto_db/metadata/MANIFEST-000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Default/trusted_vault.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GrShaderCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GrShaderCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GrShaderCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GrShaderCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GrShaderCache/f_000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GrShaderCache/f_000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GrShaderCache/f_000003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GrShaderCache/f_000004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GrShaderCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GraphiteDawnCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GraphiteDawnCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GraphiteDawnCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GraphiteDawnCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/GraphiteDawnCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Last Browser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Last Version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Local State" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/ShaderCache/data_0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/ShaderCache/data_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/ShaderCache/data_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/ShaderCache/data_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/ShaderCache/index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/Variations" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/component_crx_cache/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/extensions_crx_cache/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/first_party_sets.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/first_party_sets.db-journal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds_browser_profile/segmentation_platform/ukm_db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/deepseek_worker_adapted.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/.package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/accepts/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/accepts/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/accepts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/accepts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/accepts/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/body-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/body-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/body-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/body-parser/lib/read.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/body-parser/lib/types/json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/body-parser/lib/types/raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/body-parser/lib/types/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/body-parser/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/body-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/bytes/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/bytes/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/bytes/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/bytes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/bytes/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/actualApply.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/actualApply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/applyBind.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/applyBind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/functionApply.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/functionApply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/functionCall.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/functionCall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/reflectApply.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/reflectApply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bind-apply-helpers/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bound/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bound/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bound/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bound/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bound/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bound/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bound/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bound/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bound/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bound/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/call-bound/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/content-disposition/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/content-disposition/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/content-disposition/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/content-disposition/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/content-type/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/content-type/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/content-type/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/content-type/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/content-type/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/cookie-signature/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/cookie-signature/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/cookie-signature/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/cookie-signature/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/cookie-signature/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/cookie/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/cookie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/cookie/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/cookie/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/cookie/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/debug/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/debug/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/debug/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/debug/src/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/debug/src/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/debug/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/debug/src/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/depd/History.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/depd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/depd/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/depd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/depd/lib/browser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/depd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/get.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/get.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/set.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/test/get.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/test/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/dunder-proto/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ee-first/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ee-first/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ee-first/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ee-first/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/encodeurl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/encodeurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/encodeurl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/encodeurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-define-property/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-define-property/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-define-property/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-define-property/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-define-property/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-define-property/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-define-property/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-define-property/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-define-property/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-define-property/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-define-property/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/eval.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/eval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/range.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/ref.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/ref.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/syntax.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/syntax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/type.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/uri.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-errors/uri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/RequireObjectCoercible.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/RequireObjectCoercible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/ToObject.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/ToObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/isObject.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/isObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/es-object-atoms/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/escape-html/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/escape-html/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/escape-html/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/escape-html/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/etag/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/etag/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/etag/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/etag/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/etag/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/express/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/express/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/express/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/express/lib/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/express/lib/express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/express/lib/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/express/lib/response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/express/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/express/lib/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/express/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/finalhandler/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/finalhandler/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/finalhandler/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/finalhandler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/finalhandler/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/forwarded/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/forwarded/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/forwarded/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/forwarded/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/forwarded/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/fresh/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/fresh/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/fresh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/fresh/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/fresh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/.github/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/implementation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/test/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/function-bind/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-intrinsic/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-intrinsic/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-intrinsic/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-intrinsic/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-intrinsic/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-intrinsic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-intrinsic/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-intrinsic/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-intrinsic/test/GetIntrinsic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/Object.getPrototypeOf.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/Object.getPrototypeOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/Reflect.getPrototypeOf.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/Reflect.getPrototypeOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/get-proto/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/gOPD.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/gOPD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/gopd/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/shams.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/shams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/test/shams/core-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/test/shams/get-own-property-symbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/test/tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/has-symbols/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/hasown/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/hasown/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/hasown/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/hasown/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/hasown/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/hasown/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/hasown/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/hasown/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/hasown/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/hasown/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/http-errors/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/http-errors/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/http-errors/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/http-errors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/http-errors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/dbcs-codec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/dbcs-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/tables/big5-added.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/tables/cp936.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/tables/cp949.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/tables/cp950.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/tables/eucjp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/utf16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/utf32.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/encodings/utf7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/lib/bom-handling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/lib/helpers/merge-exports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/lib/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/lib/streams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/iconv-lite/types/encodings.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/inherits/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/inherits/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/inherits/inherits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/inherits/inherits_browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/inherits/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ipaddr.js/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ipaddr.js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ipaddr.js/ipaddr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ipaddr.js/lib/ipaddr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ipaddr.js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/is-promise/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/is-promise/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/is-promise/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/is-promise/index.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/is-promise/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/is-promise/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/abs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/abs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/constants/maxArrayLength.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/constants/maxArrayLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/constants/maxSafeInteger.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/constants/maxSafeInteger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/constants/maxValue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/constants/maxValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/floor.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/floor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/isFinite.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/isFinite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/isInteger.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/isInteger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/isNaN.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/isNaN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/isNegativeZero.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/isNegativeZero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/max.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/max.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/min.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/mod.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/mod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/pow.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/pow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/round.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/round.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/sign.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/sign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/math-intrinsics/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/media-typer/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/media-typer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/media-typer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/media-typer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/media-typer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/merge-descriptors/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/merge-descriptors/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/merge-descriptors/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/merge-descriptors/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/merge-descriptors/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-db/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-db/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-db/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-db/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-db/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-types/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-types/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-types/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-types/mimeScore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/mime-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ms/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ms/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/ms/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/negotiator/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/negotiator/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/negotiator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/negotiator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/negotiator/lib/charset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/negotiator/lib/encoding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/negotiator/lib/language.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/negotiator/lib/mediaType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/negotiator/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/example/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/example/circular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/example/fn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/example/inspect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/package-support.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/readme.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test-core-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/bigint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/browser/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/circular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/deep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/err.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/fakes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/fn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/has.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/holes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/indent-option.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/inspect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/lowbyte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/number.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/quoteStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/toStringTag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/undef.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/test/values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/object-inspect/util.inspect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/on-finished/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/on-finished/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/on-finished/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/on-finished/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/on-finished/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/once/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/once/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/once/once.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/once/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/parseurl/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/parseurl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/parseurl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/parseurl/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/parseurl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/path-to-regexp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/path-to-regexp/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/path-to-regexp/dist/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/path-to-regexp/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/path-to-regexp/dist/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/path-to-regexp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/proxy-addr/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/proxy-addr/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/proxy-addr/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/proxy-addr/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/proxy-addr/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/.github/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/.github/THREAT_MODEL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/dist/qs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/lib/formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/lib/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/lib/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/test/empty-keys-cases.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/test/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/test/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/qs/test/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/range-parser/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/range-parser/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/range-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/range-parser/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/range-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/raw-body/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/raw-body/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/raw-body/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/raw-body/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/raw-body/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/router/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/router/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/router/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/router/lib/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/router/lib/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/router/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/safer-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/safer-buffer/Porting-Buffer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/safer-buffer/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/safer-buffer/dangerous.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/safer-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/safer-buffer/safer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/safer-buffer/tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/send/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/send/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/send/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/send/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/serve-static/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/serve-static/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/serve-static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/serve-static/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/setprototypeof/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/setprototypeof/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/setprototypeof/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/setprototypeof/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/setprototypeof/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/list.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-list/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-map/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel-weakmap/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/.nycrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/side-channel/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/statuses/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/statuses/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/statuses/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/statuses/codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/statuses/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/statuses/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/toidentifier/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/toidentifier/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/toidentifier/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/toidentifier/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/toidentifier/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/type-is/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/type-is/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/type-is/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/type-is/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/type-is/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/unpipe/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/unpipe/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/unpipe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/unpipe/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/unpipe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/vary/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/vary/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/vary/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/vary/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/vary/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/wrappy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/wrappy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/wrappy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/node_modules/wrappy/wrappy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/pom_ds_code/60816_worker_chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/pom_ds_code/deepseek_pow.wasm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/pom_ds_code/original_worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc_server/start.bat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3DeqCIbUDQ4mCwyZ8aPauxnRJ08" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.auth_manager.executor": "Run",
+    "Python.ds_engine.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.striker.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Development/Repos/Python/Project/DeepSeek-Proxy-Jarvis",
+    "settings.editor.selected.configurable": "settings.sync"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\Repos\Python\Project\DeepSeek-Proxy-Jarvis" />
+      <recent name="D:\Development\Repos\Python\Project\DeepseekReverseProject\RPCServer" />
+      <recent name="D:\Development\Repos\Python\Project\DeepseekReverseProject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\Repos\Python\Project\DeepSeek-Proxy-Jarvis\core" />
+      <recent name="D:\Development\Repos\Python\Project\DeepSeek-Proxy-Jarvis" />
+      <recent name="D:\Development\Repos\Python\Project\DeepseekReverseProject\RPCServer" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="最近的项目" flag="true" />
+      <visibility group="运行 Python 文件" flag="true" />
+      <visibility group="运行 conda 命令" flag="true" />
+      <visibility group="运行 pip 命令" flag="true" />
+      <visibility group="运行配置" flag="true" />
+    </myKeys>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="auth_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepSeek-Proxy-Jarvis" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Development\Repos\Python\Project\DeepSeek-Proxy-Jarvis\core\auth_manager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ds_engine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepSeek-Proxy-Jarvis" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Development\Repos\Python\Project\DeepSeek-Proxy-Jarvis\core\ds_engine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepSeek-Proxy-Jarvis" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parse_deepseek_stream" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepSeek-Proxy-Jarvis" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Development\Repos\Python\Project\DeepseekReverseProject\parse_deepseek_stream.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="striker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepSeek-Proxy-Jarvis" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/striker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.ds_engine" />
+        <item itemvalue="Python.striker" />
+        <item itemvalue="Python.auth_manager" />
+        <item itemvalue="Python.parse_deepseek_stream" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="45c2fe32-1a6d-4271-8a14-ecf52773cd51" name="更改" comment="" />
+      <created>1778652754148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778652754148</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
