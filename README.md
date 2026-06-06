@@ -1,8 +1,3 @@
-这里为您精心铸造了一份系统级的 **项目 Readme 说明文档 (Markdown 格式)**。它遵循企业级开源项目的标准规范，将我们的对抗官方风控体系（PoW、版本指纹）、解耦状态机的双轨思维链（R1 适配）、SQLite 多租户精算账单，以及前端的白天响应式观测台完整地高内聚沉淀了下来。
-
-您可以直接将其复制保存为项目根目录下的 `README.md`：
-
-```markdown
 # 🦾 Jarvis DeepSeek Proxy Gateway (V2.5)
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
