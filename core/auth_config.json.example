@@ -1,0 +1,4 @@
+{
+    "Authorization": "Bearer <在此填入你的 DeepSeek Token>",
+    "Cookie": "<在此填入你的 DeepSeek Cookie>"
+}

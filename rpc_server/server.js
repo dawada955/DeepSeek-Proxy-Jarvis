@@ -35,6 +35,6 @@ app.post('/api/solve_pow', async (req, res) => {
     }
 });
 
-app.listen(3000, () => {
-    console.log("🚀 [RPC 服务就绪] 监听端口 3000。等待 Python 脚本调用...");
+app.listen(3099, () => {
+    console.log("🚀 [RPC 服务就绪] 监听端口 3099。等待 Python 脚本调用...");
 });

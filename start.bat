@@ -1,14 +1,15 @@
 @echo off
-REM ===== 切换到脚本所在目录的上级（项目根目录） =====
+set PYTHONIOENCODING=utf-8
+set PYTHONUTF8=1
 cd /d "%~dp0"
 
-REM ===== 激活虚拟环境 =====
+if not exist "env\Scripts\python.exe" (
+    echo [ERROR] Virtual environment not found. Please run setup.bat first.
+    pause
+    exit /b 1
+)
+
 call env\Scripts\activate
-
-REM ===== 安装依赖（可选，首次或更新时用） =====
 pip install -r requirements.txt >nul 2>&1
-
-REM ===== 启动 main.py =====
 python main.py
-
 pause

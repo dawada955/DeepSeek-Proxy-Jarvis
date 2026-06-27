@@ -7,7 +7,7 @@ class Settings:
     PORT = 8888
 
     # ---------------- 外部兵工厂配置 ----------------
-    NODE_RPC_URL = "http://127.0.0.1:3000/api/solve_pow"
+    NODE_RPC_URL = "http://127.0.0.1:3099/api/solve_pow"
 
     # ---------------- DeepSeek 官方接口配置 ----------------
     DS_API_BASE = "https://chat.deepseek.com/api/v0/chat"

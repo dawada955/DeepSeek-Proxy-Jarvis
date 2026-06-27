@@ -15,7 +15,7 @@ cryptography==44.0.3
 cssselect==1.4.0
 DataRecorder==3.6.2
 DownloadKit==2.0.7
-DrissionPage==4.1.1.2
+DrissionPage==4.1.1.4
 et_xmlfile==2.0.0
 fastapi==0.136.1
 filelock==3.29.0
@@ -34,7 +34,7 @@ kaitaistruct==0.10
 ldap3==2.9.1
 lxml==6.1.0
 MarkupSafe==3.0.3
-mitmproxy-windows==0.10.7
+mitmproxy
 mitmproxy_rs==0.10.7
 msgpack==1.1.0
 openpyxl==3.1.5
@@ -46,7 +46,6 @@ pyasn1_modules==0.4.2
 pycparser==3.0
 pydantic==2.13.4
 pydantic_core==2.46.4
-pydivert==2.1.0
 pyee==13.0.1
 pylsqpack==0.3.24
 pyOpenSSL==24.3.0

@@ -5,6 +5,7 @@ import requests
 
 from cli.server_guard import start_node_server, node_process
 from core.config import config
+from core.ds_engine import DeepSeekEngine
 
 
 def terminal_chat_mode():
@@ -18,8 +19,8 @@ def terminal_chat_mode():
         if node_process is None:
             start_node_server()
 
-        engine = start_node_server()
         print("⏳ 正在开辟专属测试频段...")
+        engine = DeepSeekEngine()
         session_id = engine.create_new_chat_session()
         parent_id = None
         print(f"✅ 频段建立完毕 (ID: {session_id[:8]}...)！开始通讯。\n")
